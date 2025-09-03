@@ -1,0 +1,42 @@
+# === LangChain & Ecosystem ===
+langchain==0.2.10; python_version >= "3.9" and python_version < "3.12"
+langchain-community==0.2.9; python_version >= "3.9" and python_version < "3.12"
+langchain-core>=0.2.22,<0.3.0; python_version >= "3.9" and python_version < "3.12"
+langchain-text-splitters==0.2.2; python_version >= "3.9" and python_version < "3.12"
+
+# === LLMs & Embeddings ===
+google-generativeai==0.5.4; python_version >= "3.9" and python_version < "3.12"
+
+# === Vector & Keyword Retrieval ===
+chromadb==0.5.3; python_version >= "3.9" and python_version < "3.12"
+rank-bm25==0.2.2; python_version >= "3.9" and python_version < "3.12"
+
+# === API & Backend ===
+fastapi==0.111.0; python_version >= "3.9" and python_version < "3.12"
+uvicorn==0.30.0; python_version >= "3.9" and python_version < "3.12"
+
+# === Frontend / UI ===
+streamlit==1.37.0; python_version >= "3.9" and python_version < "3.12"
+gradio==4.36.1; python_version >= "3.9" and python_version < "3.12"
+
+# === Data & Processing ===
+datasets==3.0.1; python_version >= "3.9" and python_version < "3.12"
+pandas==2.2.2; python_version >= "3.9" and python_version < "3.12"
+numpy==1.26.4; python_version >= "3.9" and python_version < "3.12"
+scikit-learn==1.5.1; python_version >= "3.9" and python_version < "3.12"
+
+# === OCR (for images) ===
+pillow==10.4.0; python_version >= "3.9" and python_version < "3.12"
+pytesseract==0.3.13; python_version >= "3.9" and python_version < "3.12"
+
+# === Evaluation ===
+ragas==0.1.5; python_version >= "3.9" and python_version < "3.12"
+pytrec_eval==0.5; python_version >= "3.9" and python_version < "3.12"
+
+# === Utilities & Testing ===
+python-dotenv==1.0.1; python_version >= "3.9" and python_version < "3.12"
+pyyaml==6.0.2; python_version >= "3.9" and python_version < "3.12"
+rich==13.7.1; python_version >= "3.9" and python_version < "3.12"
+pytest==8.3.2; python_version >= "3.9" and python_version < "3.12"
+black==24.4.2; python_version >= "3.9" and python_version < "3.12"
+isort==5.13.2; python_version >= "3.9" and python_version < "3.12"
